@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  #map {
+    width: 400px;
+    height: 290px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    margin-top: 45px;
+  }
+  
+  .form-input {
+    padding: 15px 0px 15px 5px;
+    margin-bottom: 20px;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .form-input-m{
+    padding: 15px 185px 25px 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .main{
+    display: flex;
+    background-color: rgb(199, 246, 255);
+    justify-content: space-around;
+    height: 600px;
+    width: 900px;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 2px solid rgb(148, 148, 148);
+    margin-left: 220px;
+  }
+
+.ch1{
+    margin-left: 20px;
+}
+
+    
+
+  #ad{
+    margin-left: 10px;
+    color: #343434;
+  }
+  .add{
+    height: 100px;
+    width: 800px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-right: 29px;
+  }
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  #submit-btn {
+    background-color: #ff5b45;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  #submit-btn:hover {
+    background-color: #3e8e41;
+  }
